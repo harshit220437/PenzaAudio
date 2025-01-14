@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'; // Import useState, useEffect, useRef hooks
 import { Link } from 'react-scroll';
 import logo from '../../assets/logo/Screenshot 2025-01-09 180608.png';
-import './Header.css';
+import './header.css';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to toggle menu visibility
