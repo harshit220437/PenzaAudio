@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Components/header/header';
-import logo from '../assets/logo/Screenshot 2025-01-09 180608.png';
+import logo from '/assets/logo/lg.png';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './home.css'; // Main App styles

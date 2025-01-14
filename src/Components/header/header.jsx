@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'; // Import useState, useEffect, useRef hooks
 import { Link } from 'react-scroll';
-import logo from '../../assets/logo/Screenshot 2025-01-09 180608.png';
+import logo from '/assets/logo/lg.png';
 import './header.css';
 
 const Header = () => {
