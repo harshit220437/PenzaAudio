@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Products_section.css';
+import './products_section.css';
 
 // Categories array with placeholder images
 const categories = [
