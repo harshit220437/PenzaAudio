@@ -94,15 +94,19 @@ import Home from './pages/home'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import ProductDetails from './Components/ProductDetails';
 import './App.css'; // Main App styles
+import Header from './Components/header/header';
 
 const App = () => {
   return (
+    <>
+    <Header />
     <Router>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
     </Router>
+    </>
   );
 };
 

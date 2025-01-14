@@ -8,7 +8,6 @@ import './home.css'; // Main App styles
 const App = () => {
   return (
     <>
-    <Header />
     <div className="App">
       <div id="home" className="section">
         <h1>Welcome to Our Website</h1>
