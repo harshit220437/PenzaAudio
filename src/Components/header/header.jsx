@@ -35,7 +35,7 @@ const Header = () => {
   }, []); // Empty dependency array to run only once when the component is mounted
 
   return (
-    <header className="header">
+    <div className="header">
       <div className="logo">
         <img src={logo} alt="Logo" className="logo" />
       </div>
@@ -77,7 +77,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 };
 

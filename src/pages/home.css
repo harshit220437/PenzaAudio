@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ba1c1c;
@@ -6,12 +6,12 @@ body {
     
     
   }
-  
+   */
   .App {
     display: flex;
     flex-direction: column;  /* Stack elements vertically */
     justify-content: flex-start;  /* Align items to the top */
-    align-items: center;      /* Center items horizontally */
+    /* align-items: center;      Center items horizontally */
     height:fit-content;            /* Full height of the viewport */
     width: 100%;              /* Full width of the viewport */
     /* max-width: 1200px;        Limit its maximum width */
@@ -25,16 +25,16 @@ body {
     height: 250px;
     width: 450px;
   }
-  
+/*   
   
   #wholepage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Ensure it takes up the full width */
+    width: 100%; 
   }
-  
+   */
   .section {
     width: 100%;
     /* padding: 100px 20px; */
